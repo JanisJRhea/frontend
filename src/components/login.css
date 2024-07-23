@@ -1,0 +1,51 @@
+/* login.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light gray background */
+  background-image: url('/public/image/second.png'); /* Add your image path here */
+  background-size: cover; /* Ensure the background covers the entire container */
+  background-position: center; /* Center the background image */
+}
+
+
+.login-container h2 {
+  font-size: 2rem;
+  color: #333; /* Dark gray text */
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #7c20a7; /* White background for form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for form */
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* Blue background for button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

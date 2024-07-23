@@ -1,0 +1,57 @@
+.home {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url('/public/image/first.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+  }
+
+  .home-container {
+    text-align: center;
+    padding: 20px;
+    color: rgb(202, 88, 176);
+  }
+  
+  .home-image {
+    background-image:url('/public/image/front.png');
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  h1 {
+    color: #ff009d;
+  }
+  p{
+    color:#c111d1
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  .play-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #c111d1;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .play-button:hover {
+    background-color: #0056b3;
+  }
+  
